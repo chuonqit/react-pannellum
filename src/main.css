@@ -1,0 +1,34 @@
+.pnlm-about-msg {
+  display: none !important;
+}
+.pnlm-about-msg a {
+  display: none !important;
+  pointer-events: none !important;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+input,
+button {
+  width: 600px;
+  height: 40px;
+  border: 1px solid;
+  display: block;
+  margin: 5px 0;
+  padding: 0 12px;
+  outline: 0;
+  font-size: 16px;
+}
+
+button {
+  cursor: pointer;
+}
